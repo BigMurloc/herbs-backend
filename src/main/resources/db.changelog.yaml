@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: 26042021_init.sql
+      author: BigMurloc
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/26042021_init.sql
